@@ -56,7 +56,6 @@ function NavBar({
         return (
           <View style={[styles.left, leftStyle]}>
             <TouchableOpacity onPress={() => onLeftPress && onLeftPress()} hitSlop={leftHitSlop}>
-              Menu
               <Icon
                 family={leftIconFamily || 'evilicons'}
                 color={leftIconColor || theme.COLORS.ICON}
