@@ -50,7 +50,9 @@ function NavBar({
   function renderLeft() {
     console.log('test');
     if (!hideLeft) {
+      console.log('in not hide left');
       if (leftIconName || (back && !left)) {
+        console.log('in view');
         return (
           <View style={[styles.left, leftStyle]}>
             <TouchableOpacity onPress={() => onLeftPress && onLeftPress()} hitSlop={leftHitSlop}>
