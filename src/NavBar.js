@@ -48,6 +48,7 @@ function NavBar({
   }
 
   function renderLeft() {
+    console.log('test');
     if (!hideLeft) {
       if (leftIconName || (back && !left)) {
         return (
